@@ -1,0 +1,26 @@
+{
+  "name": "stream-shift-promise",
+  "version": "1.0.0",
+  "description": "Returns a promise that resolves to the next buffer/object from a readable stream.",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xloem/stream-shift-promise.git"
+  },
+  "author": "Karl Semich <0xloem@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xloem/stream-shift-promise/issues"
+  },
+  "homepage": "https://github.com/xloem/stream-shift-promise#readme",
+  "devDependencies": {
+    "standard": "^14.3.3",
+    "tape": "^4.13.2"
+  },
+  "dependencies": {
+    "stream-shift": "^1.0.1"
+  }
+}
